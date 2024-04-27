@@ -9,7 +9,7 @@
 
 /*===== Color =====*/
 :root {
-  --first-color: #000000;
+  --first-color: #5c461e;
   --white-color: #fafaff;
   --dark-color: #2a3b47;
   --text-color: #697477;
@@ -140,7 +140,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
-    transition: 0.5s;
+    transition: 0.1s;
     backdrop-filter: blur(10px);
   }
 }
@@ -201,6 +201,7 @@ img {
 .home__scroll {
   align-self: flex-end;
   padding-bottom: var(--mb-4);
+  color: #ca9532;
 }
 .home__scroll-link {
   writing-mode: vertical-lr;
@@ -223,7 +224,6 @@ img {
 .about__img {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
   width: 120px;
   height: 120px;
   background-color: var(--first-color);
@@ -231,7 +231,8 @@ img {
   overflow: hidden;
 }
 .about__img img {
-  width: 165px;
+  width: 295px;
+  height: 10em;
 }
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -292,6 +293,8 @@ img {
 }
 .portfolio__img img {
   border-radius: 0.5rem;
+  width: 750px;
+  max-height: 210px;
 }
 .portfolio__link {
   position: absolute;
@@ -305,7 +308,7 @@ img {
   border-radius: 0.5rem;
   cursor: pointer;
   backdrop-filter: blur(10px);
-  transition: 0.3s;
+  transition: 0.1s;
 }
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
@@ -446,7 +449,8 @@ img {
     height: 200px;
   }
   .about__img img {
-    width: 165px;
+    width: 225px;
+    height: 13em;
   }
 
   .skills__container {
@@ -488,6 +492,6 @@ img {
   }
   .home__img {
     width: 500px;
-    right: 24%;
+    right: 0%;
   }
 }
