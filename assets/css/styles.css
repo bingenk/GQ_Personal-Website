@@ -9,9 +9,9 @@
 
 /*===== Color =====*/
 :root {
-  --first-color: #5c461e;
+  --first-color: #d15e0b;
   --white-color: #fafaff;
-  --dark-color: #2a3b47;
+  --dark-color: #2d3133;
   --text-color: #697477;
 }
 
@@ -201,7 +201,7 @@ img {
 .home__scroll {
   align-self: flex-end;
   padding-bottom: var(--mb-4);
-  color: #ca9532;
+  color: #e69f1a;
 }
 .home__scroll-link {
   writing-mode: vertical-lr;
@@ -232,7 +232,7 @@ img {
 }
 .about__img img {
   width: 295px;
-  height: 10em;
+  height: 8em;
 }
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -491,7 +491,7 @@ img {
     height: 640px;
   }
   .home__img {
-    width: 500px;
+    width: 600px;
     right: 0%;
   }
 }
